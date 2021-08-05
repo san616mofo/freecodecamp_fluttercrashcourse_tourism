@@ -1,0 +1,35 @@
+name: freecodecamp_fluttercrashcourse_tourism
+description: A example Flutter app used for , displaying a list of interesting locations you can visit as a tourist. Tapping on a list item shows a nice detail page where you can book the tour.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/kiyomizu-dera.jpg
+    - assets/images/fuji.jpg
+    - assets/images/arashiyama.jpg
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets\fonts\Montserrat-Regular.ttf
+          weight: 300
+        - asset: assets\fonts\Montserrat-Bold.ttf
+          weight: 600
